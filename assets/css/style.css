@@ -1,3 +1,7 @@
+body{
+    background-color: #000000;
+}
+
 .container{
     display: flex;
     height: 100vh;
@@ -5,3 +9,53 @@
     align-items: center;
 }
 
+h5 {
+    color: #DBDBDB;
+}
+
+p {
+    color: #DBDBDB;
+}
+
+.card {
+    background-color: #000000;
+    border-color: #F0A500;
+    text-align: center; 
+}
+
+img{
+    margin-top: 1rem;
+}
+
+input{
+    margin-bottom: 1rem;
+}
+
+.content {
+padding-left: 1rem;
+}
+
+.btn {
+    background-color: #F0A500;
+    
+}
+
+.btn:hover {
+    background-color: #CF7500;
+}
+
+.color{
+    display: flex;
+}
+
+.circle {
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid;
+    border-color: #DBDBDB;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #DBDBDB;
+    margin-left: 1rem;
+}
