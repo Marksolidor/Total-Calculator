@@ -39,3 +39,19 @@ padding-left: 1rem;
 .btn:hover {
     background-color: #CF7500;
 }
+
+.color{
+    display: flex;
+}
+
+.circle {
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid;
+    border-color: #DBDBDB;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #DBDBDB;
+    margin-left: 1rem;
+}
