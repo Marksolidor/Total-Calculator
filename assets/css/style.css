@@ -23,6 +23,10 @@ p {
     text-align: center; 
 }
 
+img{
+    margin-top: 1rem;
+}
+
 input{
     margin-bottom: 1rem;
 }
