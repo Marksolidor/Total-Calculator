@@ -1,3 +1,7 @@
+body{
+    background-color: #000000;
+}
+
 .container{
     display: flex;
     height: 100vh;
@@ -5,3 +9,7 @@
     align-items: center;
 }
 
+.card {
+    background-color: #000000;
+    border-color: #F0A500;
+}
