@@ -35,9 +35,13 @@ input{
 padding-left: 1rem;
 }
 
+.selector2{
+    margin-bottom: 0.5rem;
+}
+
 .btn {
     background-color: #F0A500;
-    
+ 
 }
 
 .btn:hover {
