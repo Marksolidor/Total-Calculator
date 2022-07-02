@@ -1,65 +1,68 @@
-body{
-    background-color: #000000;
+body {
+  background-color: #000000;
 }
 
-.container{
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
 h5 {
-    color: #DBDBDB;
+  color: #dbdbdb;
 }
 
 p {
-    color: #DBDBDB;
+  color: #dbdbdb;
 }
 
 .card {
-    background-color: #000000;
-    border-color: #F0A500;
-    text-align: center; 
+  background-color: #000000;
+  border-color: #f0a500;
+  text-align: center;
 }
 
-img{
-    margin-top: 1rem;
+img {
+  margin-top: 1rem;
 }
 
-input{
-    margin-bottom: 1rem;
+input {
+  margin-bottom: 1rem;
 }
 
 .content {
-padding-left: 1rem;
+  padding-left: 1rem;
 }
 
-.selector2{
-    margin-bottom: 0.5rem;
+.selector1 {
+  padding-bottom: 1rem;
+}
+
+.selector2 {
+  padding-bottom: 1rem;
 }
 
 .btn {
-    background-color: #F0A500;
- 
+  background-color: #f0a500;
 }
 
 .btn:hover {
-    background-color: #CF7500;
+  background-color: #cf7500;
 }
 
 .color_selection {
-    display: flex;
+  display: flex;
 }
 
 .circle {
-    width: 2rem;
-    height: 2rem;
-    border: 1px solid;
-    border-color: #DBDBDB;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    background: #DBDBDB;
-    margin-left: 1rem;
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid;
+  border-color: #dbdbdb;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #dbdbdb;
+  margin-left: 1rem;
 }
