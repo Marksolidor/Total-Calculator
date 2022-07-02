@@ -35,8 +35,12 @@ input{
 padding-left: 1rem;
 }
 
+.selector1{
+    padding-bottom: 1rem;
+}
+
 .selector2{
-    margin-bottom: 0.5rem;
+    padding-bottom: 1rem;
 }
 
 .btn {
