@@ -23,19 +23,36 @@
         <div class="card-body">
           <h5 class="card-title">POLERA</h5>
           <input id="input-1" type="text" placeholder="Cantidad">
-          <input id="input-2" type="text" placeholder="Color">
-          <p>Precio: 5000 CLP</p>
-          <a href="#" class="btn btn-primary">Calcular</a>
+          <div class="selector1">
+            <p>Elija un color</p>
+            <select id="color">
+                <option value="red">Rojo</option>
+                <option value="white" selected>Blanco</option>
+                <option value="blue">Azul</option>
+              </select>
+          </div>
+          <p>Seleccioen Talla:</p>
+          <div class="selector1">
+          <select id="price" name="price">
+            <option value="4000">XS</option>
+            <option value="5000">S</option>
+            <option value="6000" selected>M</option>
+            <option value="7000">L</option>
+            <option value="9000">XL</option>
+          </select>
+        </div>
+          <a href="#" class="btn btn-primary" onclick="myFunction()">Calcular</a>
         </div>
       </div>
       <div class="content">
-        <p>Total: $</p>
-        <p>Cantidad:</p>
-        <div class="color">
+        <p>Total: <span id="sum"></span> CLP</p>
+        <p>Cantidad: <span id="quantity"></span></p>
+        <div class="color_selection">
             <p>Color:</p>
             <div class="circle"></div>
         </div>
       </div>
 </div>
+<script src="assets\js\app.js"></script>
 </body>
 </html>
