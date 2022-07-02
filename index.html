@@ -32,24 +32,25 @@
               </select>
           </div>
           <p>Precio:</p>
-          <div class="selector2">
+          <div class="selector1">
           <select id="price" name="price">
             <option value="5000">5000</option>
             <option value="6000" selected>6000</option>
             <option value="7000">7000</option>
           </select>
         </div>
-          <a href="#" class="btn btn-primary">Calcular</a>
+          <a href="#" class="btn btn-primary" onclick="myFunction()">Calcular</a>
         </div>
       </div>
       <div class="content">
         <p>Total: $</p>
-        <p>Cantidad:</p>
+        <p>Cantidad: <span id="quantity"></span></p>
         <div class="color">
             <p>Color:</p>
             <div class="circle"></div>
         </div>
       </div>
 </div>
+<script src="assets\js\app.js"></script>
 </body>
 </html>
